@@ -1,0 +1,94 @@
+/* 577px-768px */
+
+@media (min-width:701px) and (max-width:1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        max-width: 576px;
+        
+    }
+    .manu-items{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        /* grid-template-columns: 1fr; */
+        flex-wrap: wrap;
+        /* height: fit-content;
+        width: fit-content; */
+        justify-content: center;
+        margin-bottom: 150px;
+    
+    }
+    .banner-left{
+       display: flex; 
+       /* grid-template-rows: 1fr 100px 50px; */
+       flex-wrap: wrap;
+       
+    }
+    .banner-left h1{
+        font-size: 50px;
+    }
+    .banner-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-right img{
+        width: 90%;
+    }
+    .brands{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .animation {
+        font-size: 50px;
+        white-space: nowrap;
+        /* position: relative; */
+        color: transparent;
+      }
+      
+    .animation:before {
+        content: "Start your Journey as";
+        /* position: absolute; */
+        color: #FF008E;
+        animation: typing 5s linear infinite;
+        -webkit-animation: typing 5s linear infinite;
+    }
+    #video-blog{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        margin: 0 auto;
+        padding: 0 auto;
+
+    }
+    #video{
+        width:220px;
+    }
+    .nav-toggler{
+        display: block;
+    }
+    .nav-toggler-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .logo{
+        display: flex;
+        gap: 70px;
+    }
+}
